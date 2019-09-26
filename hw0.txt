@@ -1,3 +1,20 @@
 # Description of your program (part 7)
+Create an integer variable with an initial value of 0, which records the number of words in the document.
+There are two ways of writing the main program:
+The first one is under the assumption of there are no two or more consecutive spaces in the document.
+Create an iterator which iterates over each character in the document.
+Start to iterate from the first character of the document.
+During iteration, every time when the character it checks equals to the space character, adds 1 to the integer variable.
+
+The second one is under the assumption of there are possibly two or more consecutive spaces in the document.
+Create a linked list, iterates over each character in the document and store each one into the linked list.
+Start to iterate from the first character of the document.
+During iteration, every time when the value of node it checks equals to the space character, and the value of next node does not equal to the space character, adds 1 to the integer variable.
 
 # Reflection on writing your program (part 8)
+The previous experience was a little bit difficult for me. While trying to describe the instructions in English, there are a lot of grey areas which I was not clear about, for example:
+When talking about numbers, do we present it in a numerical way or a letter way?
+
+While writing the instruction, I struggled to maintain the balance of being easy to understood and being technical and detailed enough. I also had to write two approaches of writing the programs based on different assumptions on the document's content, which is something I was not sure if I should do or not.
+
+In terms of coding experience, I took CSE 142, 143, 373, INFO 201 as well as finishing a coding camp on web development and Ruby, so I had a lot of exposure and experience in MVC and web development. My main goal for the course is to have a stronger foundation in coding. I had very little experience with Python before (i.e. went through the syntax and stuff), so I hope I could explore the world of data analysis and software dev more through the lens of Python :)
